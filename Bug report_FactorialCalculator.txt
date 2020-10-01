@@ -1,0 +1,43 @@
+Bug Id: 001
+Bug Name: Application does not have error message when input is negative number
+Severity: Low
+Priority: Medium
+Assigned to: 
+Reported by: Amelia Deng
+Reprducibilith: Always
+OS: Windows10
+Browser: Chrome
+Reported on: 2020-10-1
+
+Bug description: The factorial function is defined for non-negative integers only. Application should have some error message when input is negative number.
+
+Step to Reproduce:
+1. Naviaget to link https://qainterview.pythonanywhere.com/
+2. Input number -10
+3. Click button 'Calculate!'
+
+Expected result: Application should provide some error message such as 'Input only allow positive integer'.
+Actual result: Application does not have error message.
+
+
+
+Bug Id: 002
+Bug Name: Application does not have response when input is larger than 989.
+Severity: Medium
+Priority: Medium
+Assigned to: 
+Reported by: Amelia Deng
+Reprducibilith: Always
+OS: Windows10
+Browser: Chrome
+Reported on: 2020-10-1
+
+Bug description: When input is between 171 and 989, the result is inlfinity. however, when the input is larger than 989, the application does not have response. 
+
+Step to Reproduce:
+1. Naviaget to link https://qainterview.pythonanywhere.com/
+2. Input number 990
+3. Click button 'Calculate!'
+
+Expected result: Application should provide message such as 'The factorial of 990 is: Infinity'.
+Actual result: Application does not have any response.
