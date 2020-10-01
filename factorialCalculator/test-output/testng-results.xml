@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24826" started-at="2020-10-01T21:43:56Z" finished-at="2020-10-01T21:44:21Z">
+  <suite name="Suite" duration-ms="25292" started-at="2020-10-01T21:51:59Z" finished-at="2020-10-01T21:52:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24826" started-at="2020-10-01T21:43:56Z" finished-at="2020-10-01T21:44:21Z">
+    <test name="Test" duration-ms="25292" started-at="2020-10-01T21:51:59Z" finished-at="2020-10-01T21:52:24Z">
       <class name="testCases.CalFactoriall">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.CalFactoriall@544fe44c]" name="beforeClass" is-config="true" duration-ms="8887" started-at="2020-10-01T21:43:56Z" finished-at="2020-10-01T21:44:05Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.CalFactoriall@71318ec4]" name="beforeClass" is-config="true" duration-ms="9177" started-at="2020-10-01T21:51:59Z" finished-at="2020-10-01T21:52:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="calResult()[pri:0, instance:testCases.CalFactoriall@544fe44c]" name="calResult" duration-ms="8329" started-at="2020-10-01T21:44:05Z" finished-at="2020-10-01T21:44:14Z">
+        <test-method status="PASS" signature="calResult()[pri:0, instance:testCases.CalFactoriall@71318ec4]" name="calResult" duration-ms="7936" started-at="2020-10-01T21:52:08Z" finished-at="2020-10-01T21:52:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calResult -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.CalFactoriall@544fe44c]" name="afterClass" is-config="true" duration-ms="144" started-at="2020-10-01T21:44:14Z" finished-at="2020-10-01T21:44:14Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.CalFactoriall@71318ec4]" name="afterClass" is-config="true" duration-ms="153" started-at="2020-10-01T21:52:16Z" finished-at="2020-10-01T21:52:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.CalFactoriall@544fe44c]" name="beforeClass" is-config="true" duration-ms="6215" started-at="2020-10-01T21:44:14Z" finished-at="2020-10-01T21:44:20Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testCases.CalFactoriall@71318ec4]" name="beforeClass" is-config="true" duration-ms="6760" started-at="2020-10-01T21:52:16Z" finished-at="2020-10-01T21:52:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="calResultWithoutInput()[pri:0, instance:testCases.CalFactoriall@544fe44c]" name="calResultWithoutInput" duration-ms="1109" started-at="2020-10-01T21:44:20Z" finished-at="2020-10-01T21:44:21Z">
+        <test-method status="PASS" signature="calResultWithoutInput()[pri:0, instance:testCases.CalFactoriall@71318ec4]" name="calResultWithoutInput" duration-ms="1122" started-at="2020-10-01T21:52:23Z" finished-at="2020-10-01T21:52:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calResultWithoutInput -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.CalFactoriall@544fe44c]" name="afterClass" is-config="true" duration-ms="100" started-at="2020-10-01T21:44:21Z" finished-at="2020-10-01T21:44:21Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testCases.CalFactoriall@71318ec4]" name="afterClass" is-config="true" duration-ms="117" started-at="2020-10-01T21:52:24Z" finished-at="2020-10-01T21:52:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- testCases.CalFactoriall -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

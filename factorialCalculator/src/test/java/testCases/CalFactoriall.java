@@ -28,10 +28,8 @@ public class CalFactoriall {
     public void afterClass() {
         driver.close();
     }
+    
 	@Test
-//	@Parameters({ "browser", "url" })
-//	public void calResult(String browser, String url) {
-
 	public void calResult() throws InterruptedException {
 		
 
