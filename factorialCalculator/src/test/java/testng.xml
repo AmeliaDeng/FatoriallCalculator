@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="url" value="https://qainterview.pythonanywhere.com/"></parameter>
+		<classes>
+			<class name="testCases.CalFactoriall" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
