@@ -1,0 +1,13 @@
+Test Framework: Selenium webdriver + testng + java
+There are 2 test cases in src\test\java\testCases\CalFactoriall.java
+Two ways run this program: 
+1) directly run through src\test\java\testCases\CalFactoriall.java
+2) run through \src\test\java\testng.xml
+
+Test case1: To verify factoriall result using different test data.
+To reuse code and maintain test data better, use data driven framework. All the test data store in the excel sheet. Detail see \src\test\java\testData\testData.xlsx
+Test data design techniques: boundary value analysis and equivalence class partitioning. 
+
+Test case2: To verfiy the exception behavior, click calculate button without any input.
+
+Also, this test suite is also able to test different browsers. The browser setting can be see in the \src\test\java\util\BrowserHelper.java
