@@ -16,8 +16,11 @@ public class CalFactoriall {
 
 	WebDriver driver;
 	CalculatorPage calPg; 
-	private String filePath = "I:\\Project\\FatoriallCaculator\\FatoriallCalculator\\factorialCalculator\\src\\test\\java\\testData\\testData.xlsx";
-
+	
+	private String localDir = System.getProperty("user.dir");
+	private String path = "\\src\\test\\java\\testData\\testData.xlsx";
+	private String filePath =localDir+path;
+	
     @BeforeMethod
     public void beforeClass() {
     	driver = BrowserHelper.getDriver("chrome", "https://qainterview.pythonanywhere.com/");
@@ -29,6 +32,7 @@ public class CalFactoriall {
         driver.close();
     }
     
+   /*Test case1: get test data and expected result from excel, then calculate result. At the end, compare expected result and actual result */
 	@Test
 	public void calResult() throws InterruptedException {
 		
@@ -43,7 +47,7 @@ public class CalFactoriall {
 			String testInput = ExcelOperator.getCell(filePath, row, 0);
 			String expectedResult = ExcelOperator.getCell(filePath, row, 1);
 
-			System.out.println(testInput);
+			System.out.println("input: "+ testInput);
 			calPg.setInput(testInput);
 			calPg.clickCalButton();
 
@@ -51,9 +55,9 @@ public class CalFactoriall {
 			// get the actual result
 			String actualResult = calPg.getResult();
 
-			System.out.println("actual Result" + actualResult);
+			System.out.println("actual Result:" + actualResult);
 
-			System.out.println("expected Result" + expectedResult);
+			System.out.println("expected Result:" + expectedResult);
 			// compare result with expected result
 			softAssertion.assertEquals(expectedResult, actualResult);
 			row++;
@@ -62,7 +66,7 @@ public class CalFactoriall {
 		softAssertion.assertAll();
 
 	}
-
+	/*Test case2: Calculate result without any input*/
 	@Test
 	public void calResultWithoutInput() throws InterruptedException {
 		
