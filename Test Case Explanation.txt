@@ -10,4 +10,4 @@ Test data design techniques: boundary value analysis and equivalence class parti
 
 Test case2: To verfiy the exception behavior, click calculate button without any input.
 
-Also, this test suite is also able to test different browsers. The browser setting can be see in the \src\test\java\util\BrowserHelper.java
+Also, this test suite is also able to test different browsers. The browser setting can be seen in the \src\test\java\util\BrowserHelper.java
