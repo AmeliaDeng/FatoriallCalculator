@@ -66,7 +66,7 @@ public class CalFactoriall {
 		softAssertion.assertAll();
 
 	}
-	/*Test case2: Calculate result without any input*/
+	/*Test case2: Calculate result without any input  */
 	@Test
 	public void calResultWithoutInput() throws InterruptedException {
 		
