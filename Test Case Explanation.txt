@@ -1,4 +1,7 @@
-Test Framework: Selenium webdriver + testng + java
+Test tools: Selenium webdriver + testng
+Programing langage: Java
+Framework: data driven and page object model
+
 There are 2 test cases in src\test\java\testCases\CalFactoriall.java
 Two ways run this program: 
 1) directly run through src\test\java\testCases\CalFactoriall.java
